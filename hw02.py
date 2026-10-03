@@ -1,7 +1,9 @@
+#Jae Harrison, CSC110-01, Homework 02
+
 # Task 1.1:
 #  Complete the function "read_two_ints" below:
 def read_two_ints():
-    """Read two numbers from the user and return them as integers."""
+    """Read two numbers provided by the user and return them in integer format."""
     x_str = input("give me x: ")
     x = int(x_str)
     
@@ -10,10 +12,12 @@ def read_two_ints():
     
     return x, y
 
+#this was a confusing start, I thought I was missing something because there was no real evidence to be given of something happening yet
+
 # Task 2.1:
 #  Complete the function "compute_multadd" below:
 def compute_multadd(a, b):
-    """Calculate and print the multipliation and addition results, then return their quotient."""
+    """Calculate and print the results of multipliation and addition, then return their quotient."""
     mult_result = a * b
     print("mult result:", mult_result)
     
@@ -21,8 +25,7 @@ def compute_multadd(a, b):
     print("add result:", add_result)
     
     return mult_result / add_result
-    
-    
+        
     
 # Task 3.1:
 #  Complete the function "print_fancy" below:
@@ -35,8 +38,10 @@ def print_fancy(a, b, ab_multadd):
     print("multadd result:", ab_multadd)
     print("================")
 
+#it was fun playing around with this and seeing what I could do, but I settled on the standard
+
 def main ():
-    """Run the program by reading inputs, computer th result, and printing it."""
+    """Run the program by reading inputs, computing the result, and rhen printing it!"""
     # Task 1.2:
     #  Add one line below to call read_two_ints (note that it returns two values)
     #  the call should provide no arguments
